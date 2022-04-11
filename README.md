@@ -87,7 +87,7 @@ end
 
 function lib:Window(text, preset, closebind)
 CloseBind = closebind or Enum.KeyCode.RightControl
-PresetColor = preset or Color3.fromRGB(44, 120, 224)
+PresetColor = preset or Color3.fromRGB(86, 14, 173)
 fs = false
 local Main = Instance.new("Frame")
 local TabHold = Instance.new("Frame")
@@ -153,7 +153,7 @@ LoadFrame.Size = UDim2.new(0, 0, 0, 0)
 
 Barload.Name = "Barload"
 Barload.Parent = LoadFrame
-Barload.BackgroundColor3 = Color3.fromRGB(44, 120, 224)
+Barload.BackgroundColor3 = Color3.fromRGB(86, 14, 173)
 Barload.Position = UDim2.new(0.0436137058, 0, 0.776658118, 0)
 Barload.Size = UDim2.new(0, 0, 0, 2)
 Barload.BackgroundTransparency = 1
